@@ -1,6 +1,6 @@
 //
-//  xcode_testUITests.swift
-//  xcode testUITests
+//  testUITests.swift
+//  testUITests
 //
 //  Created by Stagiare 2 on 13-01-17.
 //  Copyright © 2017 Stagiare 2. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class xcode_testUITests: XCTestCase {
+class testUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
