@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					8BBD04A01E290E8500763C10 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					8BBD04B41E290E8500763C10 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 8BBD04A01E290E8500763C10;
 					};
 					8BBD04BF1E290E8500763C10 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 8BBD04A01E290E8500763C10;
 					};
 				};
@@ -405,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Debug;
@@ -439,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Release;
@@ -450,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = test;
 			};
 			name = Debug;
@@ -461,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = test;
 			};
 			name = Release;
@@ -484,6 +493,7 @@
 				8BBD04CB1E290E8500763C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BBD04CC1E290E8500763C10 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +502,7 @@
 				8BBD04CE1E290E8500763C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BBD04CF1E290E8500763C10 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				8BBD04D11E290E8500763C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
